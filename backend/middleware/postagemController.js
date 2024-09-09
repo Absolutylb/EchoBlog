@@ -1,5 +1,5 @@
 const { Postagem } = require('../models');
-const upload = require('../middleware/upload');
+const upload = require('./upload');
 
 // RF06 - Upload de Imagem para Postagem
 exports.uploadImagem = [
